@@ -18,7 +18,7 @@ function handleInput(event,index){
 		
 	}
 	function handleBackSpace(event, index){
-		if(event.key==='Backspace' && index>0 && event.target.value =''){
+		if(event.key==='Backspace' && index>0 && event.target.value ===''){
 			inputs[index-1].focus();
 		}
 	}
