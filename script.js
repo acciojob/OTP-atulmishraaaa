@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const inputs = document.querySelectorAll('.otpBox');
+const inputs = document.querySelectorAll('.code');
 
 // Add event listeners to each input
 inputs.forEach((input, index) => {
